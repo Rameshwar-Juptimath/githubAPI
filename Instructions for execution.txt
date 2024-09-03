@@ -1,0 +1,18 @@
+Pre-requisites:
+1. Java8+ needs to be installed
+2. Set JAVA_HOME variable in environment variables
+3. Instal maven and add the path to "Path" variable in environment variables
+4. Install Node.js using the link https://nodejs.org/en
+5. Open command prompt and Install allure command line using the command `npm install -g allure-commandline --save-dev`
+
+Steps to execute API tests:
+1. Run the batch file called as `run_tests.bat` to run all the tests
+2. Run the batch file called as `generate_report.bat` and an allure report will get generated and open in the browser
+
+Feel free to get in touch if you have any trouble running the tests.
+
+Steps to execute Load tests:
+1. Install jmeter
+2. Open Jmeter and open the file GitHubAPILoadTest.jmx
+3. Run all the tests
+4. Reports will be generated in the listeners
